@@ -2,7 +2,8 @@ const initialState = {
   sections: [
     {
       title: "hats",
-      imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
+      imageUrl:
+        "https://images.unsplash.com/photo-1534215754734-18e55d13e346?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=704&q=80",
       id: 1,
       linkUrl: "shop/hats",
     },
@@ -20,14 +21,16 @@ const initialState = {
     },
     {
       title: "womens",
-      imageUrl: "https://i.ibb.co/GCCdy8t/womens.png",
+      imageUrl:
+        "https://images.unsplash.com/photo-1585267676185-f4aa56ddbce4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
       size: "large",
       id: 4,
       linkUrl: "shop/womens",
     },
     {
       title: "mens",
-      imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+      imageUrl:
+        "https://images.unsplash.com/photo-1484515991647-c5760fcecfc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1049&q=80",
       size: "large",
       id: 5,
       linkUrl: "shop/mens",

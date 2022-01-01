@@ -14,7 +14,16 @@ const Header = ({ currentUser, hidden }) => {
   return (
     <div className="header">
       <Link className="logo-container" to="/">
-        <Logo className="logo" />
+        <img
+          id="logo"
+          src="https://www.logolynx.com/images/logolynx/fc/fc2f371e7e0cf6b93c4a077067d6d9b9.jpeg"
+          style={{
+            width: "4rem",
+            height: "4rem",
+            objectFit: "cover",
+            marginTop: "-1rem",
+          }}
+        />
       </Link>
       <div className="options">
         <Link className="option" to="/shop">
