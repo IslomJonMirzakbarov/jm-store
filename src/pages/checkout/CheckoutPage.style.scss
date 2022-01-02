@@ -20,6 +20,18 @@
       &:last-child {
         width: 8%;
       }
+
+      @media screen and (max-width: 800px) {
+        display: none;
+
+        &:first-child {
+          display: block;
+        }
+        &:last-child {
+          display: block;
+          margin-right: 1rem;
+        }
+      }
     }
   }
 
@@ -38,6 +50,10 @@
     text-align: center;
     margin-top: 40px;
     font-size: 24px;
-    color: red;
+    color: black;
+
+    @media screen and (max-width: 800px) {
+      font-size: 1.2rem;
+    }
   }
 }

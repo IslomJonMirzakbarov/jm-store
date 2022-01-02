@@ -32,10 +32,22 @@
     .value {
       margin: 0 10px;
     }
+
+    @media screen and (max-width: 800px) {
+      margin: 0 .5rem;
+
+      .value {
+        margin: 0 5px;
+      }
+    }
   }
 
   .remove-button {
     padding-left: 12px;
     cursor: pointer;
+  }
+
+  @media screen and (max-width: 800px) {
+    font-size: 1rem;
   }
 }

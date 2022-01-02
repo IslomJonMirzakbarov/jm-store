@@ -46,11 +46,20 @@
     opacity: 0.7;
     position: absolute;
 
+    @media screen and (max-width: 800px) {
+      max-width: 17%;
+    }
+
     .title {
       font-weight: bold;
       margin-bottom: 6px;
       font-size: 22px;
       color: #4a4a4a;
+
+      @media screen and (max-width: 800px) {
+        margin-bottom: 4px;
+        font-size: 18px;
+      }
     }
 
     .subtitle {
@@ -64,5 +73,9 @@
     height: 100%;
     background-position: center;
     background-size: cover;
+  }
+
+  @media screen and (max-width: 800px) {
+    height: 200px !important;
   }
 }
